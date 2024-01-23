@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <div class="main-cadastro">
+        <div class="left-cadastro">
+            <img src="./card-cadastro/LogoCamps.png" class="left-cadastro-img" alt="Logo Camps">
+            <h1>CAMPS</h1>
+        </div>
+        <div class="right-cadastro">
+            <div class="card-cadastro">
+                <h1>CADASTRO</h1>
+                <div class="textfield">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="name" name="nome" placeholder="Digite seu nome">
+                </div>
+                <div class="textfield">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                </div>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" id="username" name="usuario" placeholder="Digite seu usuário">
+                </div>
+                <div class="textfield"> 
+                    <label for="senha">Senha</label>
+                    <input type="password" id="password" name="senha" placeholder="Digite a sua senha">
+                </div>
+                <button class="btn-cadastro" onclick="register()">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
