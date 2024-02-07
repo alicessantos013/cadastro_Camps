@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta</title>
+
+    <link rel="stylesheet" href="./telaConsulta.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="./telaConsulta.js"></script>
+   
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="../../folder/LogoCamps.png" alt="Logo Camps">
+            <h1>CAMPS</h1>
+        </div>
+    </nav>
+    
+    <div class="main-consulta">
+        <div class="search-container">
+            <label for="search">Nome:</label>
+            <input type="text" id="search" name="search" placeholder="Digite o nome">
+            <button onclick="search()">Pesquisar</button>
+        </div>
+        
+        <div class="result-table-container" style="overflow-x: auto; width: 100%;">
+            <table id="result-table">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>CPF</th>
+                        <th>CID</th>
+                        <th>Data de Nascimento</th>
+                        <th>Telefone</th>
+                        <th>Responsável</th>
+                        <th>Telefone do Responsável</th>
+                        <th>CEP</th>
+                        <th>Endereço</th>
+                        <th>Complemento</th>
+                        <th>Bairro</th>
+                        <th>Cidade</th>
+                    </tr>
+                </thead>
+                <tbody id="result-body">
+                    <!-- Tabela de resultados será exibida aqui -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
