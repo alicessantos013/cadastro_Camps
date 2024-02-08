@@ -36,10 +36,4 @@ O Camps (Centro de Aprendizagem e Mobilização Profissional e Social) tem como 
 
 ## Imagens da Aplicação
 
-- Tela de Cadastro
-
-![image](https://github.com/alicessantos013/cadastro_Camps/blob/main/folder/Tela%20de%20Cadastro.PNG)
-
-- Tela de Login
-
-![image](https://github.com/alicessantos013/cadastro_Camps/blob/main/folder/Tela%20de%20Login.jpeg)
+![gif](https://github.com/alicessantos013/cadastro_Camps/blob/main/folder/gif_teste_projeto_camps.gif)
